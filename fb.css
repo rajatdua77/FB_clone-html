@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+   
+ }
+ .container{
+     max-width: 930px;
+     margin: auto;
+ }
+ .nav-bar{
+     
+     background-color: #46639E;
+     height: 30px;
+     padding: 30px;
+ 
+ }
+ .main{
+    background: linear-gradient(to top, #46639e -11%, #ffffff 107%);
+ }
+ .forgot{
+     font-size: 10px;
+     margin-top:5px;
+     color: #dad1d1;
+ }
+ .nav-bar .fb-logo{
+     color: white;
+     float: left;
+     font-size:35px;
+     font-weight: bold;
+ }
+ .nav-bar .sign-in-form form{
+     float: right;
+ }
+ .nav-bar .sign-in-form .form-group{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    color: white;
+    
+ }
+ .form-group *{
+     display: block;
+ }
+ 
+ .left-content{
+     
+     float: left;
+     height:70vh;
+     width: 50%;
+     
+ }
+ .right-content{
+    
+     padding: 20px;
+     float: left;
+     height: 70vh;
+ }
+ section{
+     margin-top:10px;
+     
+ }
+ .left-content p{
+     margin:10px;
+     font-size: 20px;
+     font-weight: bold;
+     margin-top: 50px;
+ }
+ .left-content img{
+     height: 180px;
+ }
+ .right-content h3{
+     font-size: 30px;
+     margin-top:20px;
+ }
+ .right-content form .element {
+ display: flex;
+ }
+ .right-content form{
+     margin-top:20px;
+ }
+ .right-content form .element *{
+     flex:1;
+     margin-bottom: 10px;
+     padding: 14px;
+     margin-right:2px;
+     border-radius: 5px;
+     border: 1px solid;
+ }
+ .radio{
+     
+     padding: 10px;
+     
+ }
+ .radio input{
+     margin-left: 20px;
+ }
+ .element input[type="submit"]{
+     clear: both;
+     float: none;
+     background-color: #46639E;
+     color: white;
+     font-size: 26px;
+     border-radius: 10px;
+ }
+ .a{
+     background-color: #fff;
+     padding: 2px 5px;
+     width: 60px;
+     border: 1px solid #000;
+     font-weight: bold;
+     color: #000;
+     border-radius: 5px;
+     margin-top:16px;
+ }
+ footer p{
+     text-align: center;
+     justify-content: center;
+     display: block;
+     clear: both;
+     font-size: 20px;
+    
+ }
